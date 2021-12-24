@@ -183,8 +183,9 @@ footer {
   align-items: center;
 }
 
-footer a:link a:visited a:hover {
+footer a:link {
   text-decoration: underline;
+  color: #E5E7EB;
 }
 
 footer a:visited {
