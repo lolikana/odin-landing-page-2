@@ -102,6 +102,13 @@ article {
   min-width: 400px;
   text-align: center;
   display: flex;
+  flex-direction: column;
+}
+
+article div {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -138,6 +145,7 @@ aside figcaption {
 }
 
 #aside-signup {
+  min-height: 200px;
   display: flex;
   justify-content: center;
   margin: 20px;
@@ -149,12 +157,14 @@ aside figcaption {
   border-radius: 20px;
   max-width: 800px;
   display: flex;
+  align-self: center;
 }
 
 #div-signup div {
   margin: 0 20px 0 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .bottom {
